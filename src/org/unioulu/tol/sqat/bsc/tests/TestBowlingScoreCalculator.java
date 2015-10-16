@@ -18,7 +18,7 @@ public class TestBowlingScoreCalculator {
 		//act
 		frame.addThrows(numberOfThrows);
 		//assert
-		assertEquals(2, 2);
+		assertEquals(2, numberOfThrows);
 	}
 
 	

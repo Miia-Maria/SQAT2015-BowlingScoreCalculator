@@ -93,3 +93,15 @@ EditAction 1444991594608 Frame.java 1018 7 9 0
 UnitTestCaseAction 1444991594932 TestBowlingScoreCalculator.java FAIL
 UnitTestSessionAction 1444991594933 TestBowlingScoreCalculator FAIL
 EditAction 1444991854059 Frame.java 1018 7 9 0
+UnitTestCaseAction 1444991854349 TestBowlingScoreCalculator.java OK
+UnitTestSessionAction 1444991854349 TestBowlingScoreCalculator OK
+RefactoringAction 1444991957404 TestBowlingScoreCalculator.java ADD void test FIELD
+RefactoringAction 1444991970928 TestBowlingScoreCalculator.java RENAME test=>void testScoreOf FIELD
+RefactoringAction 1444991974441 TestBowlingScoreCalculator.java RENAME testScoreOf=>void testScoreOfFrameis FIELD
+RefactoringAction 1444991975452 TestBowlingScoreCalculator.java RENAME testScoreOfFrameis=>void testScoreOfFrame FIELD
+RefactoringAction 1444991976464 TestBowlingScoreCalculator.java RENAME testScoreOfFrame=>void testScoreOfFrameIs FIELD
+RefactoringAction 1444991980977 TestBowlingScoreCalculator.java RENAME testScoreOfFrameIs=>void testScoreOfFrameIsSumOfTho FIELD
+RefactoringAction 1444991983989 TestBowlingScoreCalculator.java RENAME testScoreOfFrameIsSumOfTho=>void testScoreOfFrameIsSumOfTh FIELD
+RefactoringAction 1444991985001 TestBowlingScoreCalculator.java RENAME testScoreOfFrameIsSumOfTh=>void testScoreOfFrameIsSumOfThr FIELD
+RefactoringAction 1444991987014 TestBowlingScoreCalculator.java RENAME testScoreOfFrameIsSumOfThr=>void testScoreOfFrameIsSumOfThrows FIELD
+EditAction 1444992051575 TestBowlingScoreCalculator.java 574 1 4 1

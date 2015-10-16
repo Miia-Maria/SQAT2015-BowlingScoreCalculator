@@ -18,6 +18,15 @@ public class TestBowlingScoreCalculator {
 		frame.addThrows(numberOfThrows);
 		//assert
 		assertEquals(2, numberOfThrows);
-	}	
+	}
+	
+	@Test 
+	public void testScoreOfFrameIsSumOfThrows{
+		//arrange
+		
+		//act
+		//assert
+		
+	}
 }
 

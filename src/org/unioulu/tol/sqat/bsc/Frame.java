@@ -11,11 +11,13 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
-	public void addThrows(int numberOfThrows) {	
+	public int addThrows(int numberOfThrows) {	
 		for (numberOfThrows = 0; numberOfThrows == 2; numberOfThrows++){
-			
+			numberOfThrows++;
 			
 		}
+		
+		return numberOfThrows;
 	}
 	
 	

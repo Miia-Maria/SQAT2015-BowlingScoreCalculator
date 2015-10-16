@@ -12,7 +12,7 @@ public class Frame {
 	}
 	
 	public int addThrows(int numberOfThrows) {	
-		for (numberOfThrows = 0; numberOfThrows <= 0; numberOfThrows++){
+		for (numberOfThrows = 2; numberOfThrows <= 2; numberOfThrows++){
 			numberOfThrows = numberOfThrows+1;
 			
 		}

@@ -55,3 +55,4 @@ FileOpenedAction 1444990365893 Cell.java 1190 8 19 0
 RefactoringAction 1444990581245 Frame.java RENAME addThrow()=>void addThrows() METHOD
 RefactoringAction 1444990734135 Frame.java RENAME addThrows()=>void addThrows(int) METHOD
 EditAction 1444990813493 TestBowlingScoreCalculator.java 515 1 5 1
+EditAction 1444990813665 Frame.java 955 7 8 0

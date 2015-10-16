@@ -11,6 +11,14 @@ public class Frame {
 		this.secondThrow = secondThrow;
 	}
 	
+	public void addThrows(int numberOfThrows) {	
+		for (numberOfThrows = 0; numberOfThrows == 2; numberOfThrows++){
+			
+			
+		}
+	}
+	
+	
 	//the score of a single frame
 	public int score(){
 		//to be implemented
@@ -40,6 +48,8 @@ public class Frame {
 		//to be implemented
 		return 0;
 	}
+
+	
 
 	
 

@@ -6,3 +6,22 @@ RefactoringAction 1444987329653 TestBowlingScoreCalculator.java ADD void assertE
 RefactoringAction 1444987335975 TestBowlingScoreCalculator.java REMOVE assertEquals() METHOD
 RefactoringAction 1444987400041 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
 EditAction 1444987596899 TestBowlingScoreCalculator.java 467 1 5 1
+UnitTestCaseAction 1444987597516 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444987597518 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444988137500 TestBowlingScoreCalculator.java REMOVE import java.awt.Frame IMPORT
+RefactoringAction 1444988139008 TestBowlingScoreCalculator.java ADD import org IMPORT
+RefactoringAction 1444988141520 TestBowlingScoreCalculator.java RENAME import org=>import org.uni IMPORT
+RefactoringAction 1444988146034 TestBowlingScoreCalculator.java RENAME import org.uni=>import org.unioulu.tol.sqat.bsc.* IMPORT
+RefactoringAction 1444988149047 TestBowlingScoreCalculator.java REMOVE import org.unioulu.tol.sqat.bsc.* IMPORT
+RefactoringAction 1444988151556 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.Frame IMPORT
+UnitTestCaseAction 1444988307756 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444988307757 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444988497544 Frame.java ADD void addFirstThrow() METHOD
+RefactoringAction 1444988506473 Frame.java REMOVE addFirstThrow() METHOD
+RefactoringAction 1444988513986 Frame.java ADD void addFirstThrow() METHOD
+RefactoringAction 1444988519746 Frame.java ADD void addSecondThrow() METHOD
+RefactoringAction 1444988529010 Frame.java REMOVE addSecondThrow() METHOD
+RefactoringAction 1444988533020 Frame.java ADD void addSecondThrow() METHOD
+RefactoringAction 1444988573537 Frame.java REMOVE addSecondThrow() METHOD
+RefactoringAction 1444988573539 Frame.java REMOVE addFirstThrow() METHOD
+EditAction 1444988629342 Frame.java 810 6 7 0

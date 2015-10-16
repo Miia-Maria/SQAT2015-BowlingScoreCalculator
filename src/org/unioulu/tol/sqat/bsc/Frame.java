@@ -4,6 +4,8 @@ public class Frame {
 	private int firstThrow;
 	private int secondThrow;
 	
+	
+	
 	public Frame(int firstThrow, int secondThrow){
 		this.firstThrow = firstThrow;
 		this.secondThrow = secondThrow;
@@ -38,4 +40,8 @@ public class Frame {
 		//to be implemented
 		return 0;
 	}
+
+	
+
+	
 }

@@ -13,7 +13,7 @@ public class TestBowlingScoreCalculator {
 	public void testInOneFrameThereIsTwoThrows() {
 		//arrange
 		BowlingGame bowlingGame = new BowlingGame();
-		Frame frame = new Frame(0,0);
+		Frame frame = new Frame(2,4);
 		int numberOfThrows = 0;
 		//act
 		frame.addThrows(numberOfThrows);

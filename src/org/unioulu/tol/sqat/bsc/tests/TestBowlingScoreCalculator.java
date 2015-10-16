@@ -12,15 +12,12 @@ public class TestBowlingScoreCalculator {
 	@Test
 	public void testInOneFrameThereIsTwoThrows() {
 		//arrange
-		BowlingGame bowlingGame = new BowlingGame();
 		Frame frame = new Frame(2,4);
-		int numberOfThrows = 0;
+		int numberOfThrows = 2;
 		//act
 		frame.addThrows(numberOfThrows);
 		//assert
 		assertEquals(2, numberOfThrows);
-	}
-
-	
+	}	
 }
 

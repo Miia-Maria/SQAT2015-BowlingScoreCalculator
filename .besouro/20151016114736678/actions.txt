@@ -1,0 +1,8 @@
+FileOpenedAction 1444985256977 TestBowlingScoreCalculator.java 223 1 0 0
+FileOpenedAction 1444985470700 TestGrid.java 1080 3 19 3
+RefactoringAction 1444985769108 TestBowlingScoreCalculator.java ADD import java.awt.Frame IMPORT
+FileOpenedAction 1444986241676 Cell.java 1190 8 19 0
+RefactoringAction 1444987329653 TestBowlingScoreCalculator.java ADD void assertEquals() METHOD
+RefactoringAction 1444987335975 TestBowlingScoreCalculator.java REMOVE assertEquals() METHOD
+RefactoringAction 1444987400041 TestBowlingScoreCalculator.java ADD import org.unioulu.tol.sqat.bsc.BowlingGame IMPORT
+EditAction 1444987596899 TestBowlingScoreCalculator.java 467 1 5 1

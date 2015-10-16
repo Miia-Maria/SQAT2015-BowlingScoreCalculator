@@ -10,16 +10,15 @@ import org.unioulu.tol.sqat.bsc.BowlingGame;
 public class TestBowlingScoreCalculator {
 
 	@Test
-	public void test() {
+	public void testInOneFrameThereIsTwoThrows() {
 		//arrange
 		BowlingGame bowlingGame = new BowlingGame();
-		int firstThrow = 2;
-		int secondThrow = 4;
-		Frame frame = new Frame(firstThrow, secondThrow);
+		Frame frame = new Frame(0,0);
+		int numberOfThrows = 0;
 		//act
-		bowlingGame.addFrame(frame);
+		frame.addThrows(numberOfThrows);
 		//assert
-		assertEquals(firstThrow, secondThrow);
+		assertEquals(frame, 2);
 	}
 
 	

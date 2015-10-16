@@ -30,3 +30,28 @@ UnitTestSessionAction 1444988629668 TestBowlingScoreCalculator FAIL
 FileOpenedAction 1444988777272 Grid.java 574 2 4 0
 FileOpenedAction 1444989068475 Cell.java 1190 8 19 0
 EditAction 1444989125209 BowlingGame.java 579 5 3 0
+UnitTestCaseAction 1444989126611 TestBowlingScoreCalculator.java FAIL
+UnitTestSessionAction 1444989126612 TestBowlingScoreCalculator FAIL
+RefactoringAction 1444989207973 TestBowlingScoreCalculator.java RENAME test()=>void testIN() METHOD
+RefactoringAction 1444989209987 TestBowlingScoreCalculator.java RENAME testIN()=>void testINOne() METHOD
+RefactoringAction 1444989213013 TestBowlingScoreCalculator.java RENAME testINOne()=>void testINOneFrame() METHOD
+RefactoringAction 1444989217028 TestBowlingScoreCalculator.java RENAME testINOneFrame()=>void testInOneFrame() METHOD
+RefactoringAction 1444989220040 TestBowlingScoreCalculator.java RENAME testInOneFrame()=>void testInOneFrameThe() METHOD
+RefactoringAction 1444989221550 TestBowlingScoreCalculator.java RENAME testInOneFrameThe()=>void testInOneFrameThere() METHOD
+RefactoringAction 1444989226066 TestBowlingScoreCalculator.java RENAME testInOneFrameThere()=>void testInOneFrameThereIsTwoThro() METHOD
+RefactoringAction 1444989227079 TestBowlingScoreCalculator.java RENAME testInOneFrameThereIsTwoThro()=>void testInOneFrameThereIsTwoThrows() METHOD
+RefactoringAction 1444989877086 Frame.java ADD void addThrow(int) METHOD
+RefactoringAction 1444989918698 Frame.java REMOVE addThrow(int) METHOD
+RefactoringAction 1444989923228 Frame.java ADD void addThrow(int) METHOD
+RefactoringAction 1444989929239 Frame.java RENAME addThrow(int)=>void addThrow() METHOD
+RefactoringAction 1444989959784 Frame.java RENAME addThrow()=>void addThrow(int) METHOD
+RefactoringAction 1444989968318 Frame.java RENAME addThrow(int)=>void addThrow(int, int) METHOD
+RefactoringAction 1444990058028 Frame.java RENAME addThrow(int, int)=>void addThrow() METHOD
+RefactoringAction 1444990135157 Frame.java RENAME addThrow()=>void addThrow(int) METHOD
+RefactoringAction 1444990145190 Frame.java ADD void addThrow(int)/2 METHOD
+RefactoringAction 1444990164951 Frame.java REMOVE addThrow(int)/2 METHOD
+RefactoringAction 1444990257966 Frame.java RENAME addThrow(int)=>void addThrow() METHOD
+FileOpenedAction 1444990365893 Cell.java 1190 8 19 0
+RefactoringAction 1444990581245 Frame.java RENAME addThrow()=>void addThrows() METHOD
+RefactoringAction 1444990734135 Frame.java RENAME addThrows()=>void addThrows(int) METHOD
+EditAction 1444990813493 TestBowlingScoreCalculator.java 515 1 5 1
